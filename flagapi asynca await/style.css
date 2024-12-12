@@ -1,0 +1,110 @@
+/* Background and Navbar */
+body {
+    background: url('https://tse2.mm.bing.net/th?id=OIP.qsDKIBkx0yJdZvcaSc3qAgHaEo&pid=Api&P=0&h=180');
+    background-size: cover;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.bg-body-tertiary {
+    background:transparent!important;
+}
+
+nav {
+    z-index: 100 !important;
+}
+
+/* Sidebar Styling */
+.alphabet {
+    background: transparent;
+    padding: 20px;
+    color: white;
+    height: 60vh;
+    width:70%;
+    margin: auto;
+    
+    
+}
+
+
+.alphabet-filter div {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+
+.alphabet-filter div:hover {
+   font-size: 25px;
+    border: 4px solid white;
+    padding: 8px;
+}
+
+/* All Button Styling */
+.alphabet-filter .btn-light {
+    font-weight: bold;
+    width:200px;
+    /* position: absolute;
+    right: 20%; */
+    
+
+}
+
+/* Main Content Styling */
+.main-content {
+    padding: 20px;
+    width: 100%;
+}
+
+.country-list p {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px 0;
+}
+
+/* Responsive for mobile screens */
+@media only screen and (max-width: 575px) {
+    .alphabet{
+        height: auto;
+        padding: 10px;
+    }
+
+    .filter-header h5 {
+        font-size: 16px;
+    }
+
+    .alphabet-filter div {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .alphabet-filter .btn-light {
+        font-size: 14px;
+        width: 150px;
+        height:50px;
+    }
+
+    .main-content h1 {
+        font-size: 24px;
+    }
+
+    .country-list p {
+        font-size: 20px;
+    }
+
+    #search{
+        background-color: black;
+        color: white;
+    }
+}
